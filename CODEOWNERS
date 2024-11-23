@@ -1,0 +1,9 @@
+# This file is described here:  https://help.github.com/en/articles/about-code-owners
+
+# Apart from the semantics described in the above link, CODEOWNERS serves one more
+# purpose: it denotes the default set of people to ask for review. The rationale is
+# that sometimes people not familiar with the service need to make changes (because
+# of changes to tooling or for security reasons, for example) and they may not know
+# whom to ask for a review.
+
+* @mmitrou @kritonp @mklironomou @georgakd @ManosVer

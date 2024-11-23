@@ -1,0 +1,6 @@
+flask
+google-generativeai
+google-cloud-bigquery
+google-cloud-logging
+pandas
+db_dtypes

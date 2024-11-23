@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('food.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#chat-container {
+    width: 90%; /* Increase width of the chat container */
+    max-width: 800px; /* Allow more maximum width */
+    background: rgba(255, 255, 255, 0.8); /* Ensure the styling stays consistent */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    backdrop-filter: blur(2px); /* Subtle blur for readability */
+}
+
+#chat-box {
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid rgba(204, 204, 204, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    max-height: 400px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.6); /* Slight transparency for chat box */
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures proper spacing */
+    gap: 10px; /* Adds space between elements */
+    flex-wrap: wrap; /* Allows wrapping of elements if the container is too small */
+}
+
+#chat-dropdown {
+    flex: 2; /* Takes a proportional width */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgba(204, 204, 204, 0.8);
+    border-radius: 5px;
+    outline: none;
+    max-width: 70%; /* Ensures it doesn't overflow */
+    box-sizing: border-box;
+}
+
+#chat-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgba(204, 204, 204, 0.8);
+    border-radius: 5px;
+    outline: none;
+}
+
+#send-button {
+    flex: 1; /* Adjusts button size relative to other elements */
+    padding: 10px;
+    margin-left: 0; /* Remove excess margin */
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#send-button:hover {
+    background: #0056b3;
+}
+
+
+#user-options {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgba(204, 204, 204, 0.8);
+    border-radius: 5px;
+    outline: none;
+}
+
+#logo-container {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Align to the right */
+    z-index: 10; /* Ensure it stays above other elements */
+}
+
+#logo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Keep equal to width for a square shape */
+    object-fit: cover; /* Ensures the image fits well within the square */
+    border-radius: 0; /* Keeps the logo square */
+}
+
+
+
+#main-footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 4px; /* Reduce padding for a shorter height */
+    font-size: 13px; /* Smaller font for compactness */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#main-footer a {
+    color: #00bfff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+#main-footer a:hover {
+    text-decoration: underline;
+}

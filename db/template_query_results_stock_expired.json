@@ -1,0 +1,41 @@
+[{
+    "ExpirationDate": "2024-11-05",
+    "UsedBeforeExpiry": "false",
+    "ItemName": "Broccoli",
+    "Category": "Vegetables"
+  }, {
+    "ExpirationDate": "2024-11-06",
+    "UsedBeforeExpiry": "false",
+    "ItemName": "Bell Peppers",
+    "Category": "Vegetables"
+  }, {
+    "ExpirationDate": "2024-11-08",
+    "UsedBeforeExpiry": "false",
+    "ItemName": "Kale",
+    "Category": "Vegetables"
+  }, {
+    "ExpirationDate": "2024-11-08",
+    "UsedBeforeExpiry": "false",
+    "ItemName": "Eggs",
+    "Category": "Protein"
+  }, {
+    "ExpirationDate": "2024-11-10",
+    "UsedBeforeExpiry": "false",
+    "ItemName": "Soy Milk",
+    "Category": "Dairy"
+  }, {
+    "ExpirationDate": "2024-11-12",
+    "UsedBeforeExpiry": "false",
+    "ItemName": "Cauliflower",
+    "Category": "Vegetables"
+  }, {
+    "ExpirationDate": "2024-11-14",
+    "UsedBeforeExpiry": "false",
+    "ItemName": "Cream Cheese",
+    "Category": "Dairy"
+  }, {
+    "ExpirationDate": "2024-11-20",
+    "UsedBeforeExpiry": "false",
+    "ItemName": "Quinoa",
+    "Category": "Grains"
+  }]
